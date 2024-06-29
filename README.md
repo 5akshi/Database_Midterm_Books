@@ -44,15 +44,5 @@ SELECT reviewid, customerid, bookid, reviewrating, reviewcomment, reviewdate
 FROM Reviews
 ORDER BY reviewdate DESC
 LIMIT 10;
-
-
-###Typescript Interface for Customers Table
-interface Customer {
-    customer_id: number;
-    name: string;
-    email: string;
-    password: string;
-    total_spent: number;
-    registration_date: Date;
 }
 ```
